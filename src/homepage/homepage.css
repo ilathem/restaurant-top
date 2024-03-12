@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'IceCreamParty';
+    src: url('./IceCreamParty.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IceCreamPartySolid';
+    src: url('./IceCreamPartySolid.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+}
+
+#content {
+    overflow: clip;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 25vh;
+    color: white;
+    background-color: rgba(49, 49, 49, .5);
+}
+
+.title {
+    font-size: min(12vw, 12rem);
+    font-weight: normal;
+    margin-top: .25em;
+    font-family: 'IceCreamParty';
+}
+
+.subtitle {
+    font-size: min(6vw, 4rem);
+    margin-bottom: 1em;
+    font-family: 'IceCreamParty';
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100vh;
+    width: 100vw;
+}
