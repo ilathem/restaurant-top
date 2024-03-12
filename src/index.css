@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'IceCreamParty';
+    src: url('../assets/IceCreamParty.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IceCreamPartySolid';
+    src: url('../assets/IceCreamPartySolid.ttf') format('truetype');
+}
+
+* {
+    font-family: 'IceCreamParty';
+}
