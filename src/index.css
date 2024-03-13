@@ -41,7 +41,7 @@ button {
     padding: 5px 10px;
     cursor: pointer;
     border: 2px solid transparent;
-    transition: scale 200ms;
+    transition: border 200ms;
 }
 
 button:hover,
