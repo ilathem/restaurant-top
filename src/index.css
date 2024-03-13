@@ -10,7 +10,11 @@
 
 * {
     font-family: 'IceCreamParty';
-    overflow: clip;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
 }
 
 .image {

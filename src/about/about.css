@@ -1,0 +1,31 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* height: min-content; */
+    height: 80vh;
+    padding: 0 2em;
+    overflow: auto;
+    margin-top: max(10vh, 70px);
+    color: white;
+    background-color: rgba(49, 49, 49, .5);
+    padding-bottom: 1em;
+}
+
+.aboutTitle {
+    font-size: clamp(4rem, 12vw, 8rem);
+    justify-self: start;
+    font-weight: normal;
+}
+
+.text {
+    font-size: clamp(2rem, 4vw, 3rem);
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .text {
+        width: 50%;
+    }
+}
