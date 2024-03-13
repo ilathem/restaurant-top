@@ -9,7 +9,11 @@ const generateBackground = () => {
     image.src = ImageSrc;
     image.classList.add('image');
     document.querySelector('#content').appendChild(image);
+    const homePageNavBtn = document.querySelector('#homePageBtn');
+    console.log(homePageNavBtn);
+    homePageNavBtn.classList.add('currentPage');
 }
+
 
 generateBackground();
 Homepage();

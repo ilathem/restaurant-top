@@ -38,12 +38,18 @@ button {
     border: none;
     color: white;
     margin: 0 2vw;
-    border-radius: 10px;
+    padding: 5px 10px;
     cursor: pointer;
+    border: 2px solid transparent;
     transition: scale 200ms;
 }
 
 button:hover,
 button:focus {
-    scale: 1.1;
+    border-top: 2px solid white;
+    outline: none;
+}
+
+.currentPage {
+    border-bottom: 2px solid white;
 }
