@@ -8,7 +8,7 @@ export default function () {
     homepageDiv.classList.add('homepage');
 
     const title = document.createElement('h1');
-    title.innerText = 'Cheezer\'s';
+    title.innerText = 'alskdjflasCheezer\'s';
     title.classList.add('title')
 
     const subtitle = document.createElement('p');
